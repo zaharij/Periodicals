@@ -1,0 +1,46 @@
+
+12:04:08,688 [INFO] UserController.setNewArticle:346 - new article has been created: qweqweqweqwe
+12:09:53,629 [INFO] UserController.setNewArticle:344 - new article has been created: check log
+12:12:19,596 [INFO] UserController.setNewArticle:346 - new article has been created: Check log4j
+12:15:08,166 [INFO] UserController.setNewArticle:346 - new article has been created: My first article check log
+12:18:40,476 [INFO] UserController.setNewArticle:346 - new article has been created: Назва статті check
+12:27:37,436 [INFO] UserController.setNewArticle:347 - new article has been created: Назва статті
+12:44:45,460 [INFO] UserController.setNewArticle:347 - new article has been created: Назва статті
+12:45:10,589 [INFO] UserController.setNewArticle:347 - new article has been created: Назва статті
+12:47:37,334 [INFO] UserController.setNewArticle:347 - new article has been created: Йцуке фвкфі
+13:27:11,191 [INFO] UserController.setNewArticle:347 - new article has been created: Нова стаття
+13:01:11,491 [INFO] UserController.setNewArticle:422 - new article has been created: ???? ?????? ??? ?????
+09:40:12,481 [INFO] UserDao.insertUserIntoDb:137 - SQL Exception: model.dao.impl.UserDao
+09:45:56,458 [INFO] UserDao.insertUserIntoDb:137 - SQL Exception: model.dao.impl.UserDao
+10:31:32,036 [INFO] WriteArticleCommand.execute:39 - new article has been created: Нова стаття
+10:39:07,363 [INFO] WriteArticleCommand.execute:39 - new article has been created: Title
+20:06:01,465 [INFO] UserDao.getUserMoney:190 - SQL Exception: model.dao.impl.UserDao
+20:14:34,121 [INFO] UserDao.getAllPeriodicals:164 - SQL Exception: model.dao.impl.PeriodicalsDao
+20:17:47,646 [INFO] UserDao.getAllPeriodicals:164 - SQL Exception: model.dao.impl.PeriodicalsDao
+20:18:33,547 [INFO] UserDao.getAllPeriodicals:164 - SQL Exception: model.dao.impl.PeriodicalsDao
+20:19:25,056 [INFO] UserDao.getAllPeriodicals:164 - SQL Exception: model.dao.impl.PeriodicalsDao
+20:20:32,279 [INFO] UserDao.getPayedPeriodicals:187 - SQL Exception: model.dao.impl.PeriodicalsDao
+20:21:09,483 [INFO] UserDao.getPayedPeriodicals:188 - SQL Exception: model.dao.impl.PeriodicalsDao
+20:22:38,873 [INFO] UserDao.getUserMoney:193 - SQL Exception: model.dao.impl.UserDao
+20:23:45,120 [INFO] UserDao.getUserMoney:193 - SQL Exception: model.dao.impl.UserDao
+20:23:47,192 [INFO] UserDao.getUserMoney:193 - SQL Exception: model.dao.impl.UserDao
+20:23:49,115 [INFO] UserDao.getUserMoney:193 - SQL Exception: model.dao.impl.UserDao
+20:23:50,166 [INFO] UserDao.getUserMoney:193 - SQL Exception: model.dao.impl.UserDao
+23:55:09,278 [INFO] UserDao.insertPeriodicalIntoDb:75 - SQL Exception: model.dao.impl.PeriodicalsDao
+23:56:33,946 [INFO] UserDao.insertPeriodicalIntoDb:75 - SQL Exception: model.dao.impl.PeriodicalsDao
+23:58:54,410 [INFO] UserDao.insertPeriodicalIntoDb:75 - SQL Exception: model.dao.impl.PeriodicalsDao
+23:59:48,372 [INFO] UserDao.insertPeriodicalIntoDb:75 - SQL Exception: model.dao.impl.PeriodicalsDao
+00:03:45,010 [INFO] UserDao.insertPeriodicalIntoDb:75 - SQL Exception: model.dao.impl.PeriodicalsDao
+00:13:49,390 [INFO] UserDao.getFollowersNumberBySubject:305 - SQL Exception: model.dao.impl.PeriodicalsDao
+00:13:52,821 [INFO] UserDao.getFollowersNumberBySubject:305 - SQL Exception: model.dao.impl.PeriodicalsDao
+00:15:45,693 [INFO] UserDao.insertNewArticle:307 - SQL Exception: model.dao.impl.ArticlesDao
+00:15:45,702 [INFO] WriteArticleCommand.execute:39 - new article has been created: American Cream Draft
+00:15:51,442 [INFO] UserDao.getFollowersNumberBySubject:305 - SQL Exception: model.dao.impl.PeriodicalsDao
+00:20:30,010 [INFO] WriteArticleCommand.execute:39 - new article has been created: Abaco Barb HORSE PROFILE
+00:21:15,120 [INFO] UserDao.insertNewArticle:307 - SQL Exception: model.dao.impl.ArticlesDao
+00:21:15,131 [INFO] WriteArticleCommand.execute:39 - new article has been created: Abaco Barb HORSE PROFILE
+00:21:33,276 [INFO] UserDao.getFollowersNumberBySubject:305 - SQL Exception: model.dao.impl.PeriodicalsDao
+00:21:37,324 [INFO] UserDao.getFollowersNumberBySubject:305 - SQL Exception: model.dao.impl.PeriodicalsDao
+00:28:07,015 [INFO] UserDao.getFollowersNumberBySubject:305 - SQL Exception: model.dao.impl.PeriodicalsDao
+00:29:51,906 [INFO] UserDao.getFollowersNumberBySubject:305 - SQL Exception: model.dao.impl.PeriodicalsDao
+00:34:00,309 [INFO] UserDao.getFollowersNumberBySubject:305 - SQL Exception: model.dao.impl.PeriodicalsDao
