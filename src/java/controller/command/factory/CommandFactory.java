@@ -31,10 +31,10 @@ public class CommandFactory {
      */
     public Command getCommand (HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException{
         for (Map.Entry<String, String[]> entry : request.getParameterMap().entrySet()) {
-            if (commandMap.containsKey(entry.getKey())){
-                return commandMap.get(entry.getKey());
+            if (COMMAND_MAP.containsKey(entry.getKey())){
+                return COMMAND_MAP.get(entry.getKey());
             } else if (entry.getKey().startsWith(LANGUAGE_STR)){
-                return commandMap.get(LANGUAGE_STR);
+                return COMMAND_MAP.get(LANGUAGE_STR);
             }        
         }
         return null;
@@ -44,49 +44,49 @@ public class CommandFactory {
      * @return the login
      */
     public Command getLogin() {
-        return commandMap.get(LOGIN_USER);
+        return COMMAND_MAP.get(LOGIN_USER);
     }
 
     /**
      * @return the homePage
      */
     public Command getHomePage() {
-        return commandMap.get(START_PAGE);
+        return COMMAND_MAP.get(START_PAGE);
     }
 
     /**
      * @return the language
      */
     public Command getLanguage() {
-        return commandMap.get(LANGUAGE);
+        return COMMAND_MAP.get(LANGUAGE);
     }
 
     /**
      * @return the loginAdmin
      */
     public Command getLoginAdmin() {
-        return commandMap.get(LOGIN_ADMIN);
+        return COMMAND_MAP.get(LOGIN_ADMIN);
     }
 
     /**
      * @return the loginPage
      */
     public Command getLoginPage() {
-        return commandMap.get(SUPERADMIN);
+        return COMMAND_MAP.get(SUPERADMIN);
     }
 
     /**
      * @return the registerForm
      */
     public Command getRegisterForm() {
-        return commandMap.get(REGISTER_USER);
+        return COMMAND_MAP.get(REGISTER_USER);
     }
 
     /**
      * @return the register
      */
     public Command getRegister() {
-        return commandMap.get(REGISTER_DO);
+        return COMMAND_MAP.get(REGISTER_DO);
     }
     
 }
