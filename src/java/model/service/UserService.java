@@ -103,7 +103,7 @@ public class UserService {
     public boolean checkLogin(String login, int passwordInput){
         try {
             int passwordTrue = userDao.getUserPassword(login);
-            if (passwordTrue == passwordInput){
+            if (passwordTrue.equals(passwordInput)){
                 return true;
             } else{
                 return false;
