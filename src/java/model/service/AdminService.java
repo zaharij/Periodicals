@@ -68,7 +68,7 @@ public class AdminService {
     public boolean checkLogin(String login, int passwordInput){
         try{
             int passwordTrue = adminDao.getSuperAdminPassword(login);
-            if (passwordTrue == passwordInput){
+            if (passwordTrue.equals(passwordInput)){
                 return true;
             } else{
                 return false;
